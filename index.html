@@ -4,89 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCVTHS - Somerset County Vocational and Technical High School</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #003c71;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #002b5c;
-        }
-        nav a {
-            color: white;
-            padding: 1rem;
-            text-decoration: none;
-            display: block;
-        }
-        nav a:hover {
-            background: #001f3f;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        footer {
-            background: #002b5c;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-        .hero {
-            background: #0056a0;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        .hero h1 {
-            margin: 0;
-        }
-        .section {
-            margin-bottom: 2rem;
-        }
-        .section h2 {
-            border-bottom: 2px solid #003c71;
-            padding-bottom: 0.5rem;
-        }
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-        }
-        .contact-form label {
-            margin: 0.5rem 0 0.2rem;
-        }
-        .contact-form input, .contact-form textarea {
-            padding: 0.5rem;
-            margin-bottom: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .contact-form button {
-            padding: 0.7rem;
-            background: #003c71;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background: #002b5c;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -95,10 +13,11 @@
     </header>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#programs">Programs</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="programs.html">Programs</a>
+        <a href="computerscience.html">Computer Science</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <div class="container">
@@ -111,39 +30,10 @@
             <h2>About Us</h2>
             <p>At Somerset County Vocational and Technical High School, we are dedicated to equipping students with the skills and knowledge they need to excel in their chosen careers. Our school offers a range of technical programs and hands-on learning experiences designed to prepare students for success in the workforce.</p>
         </section>
-
-        <section id="programs" class="section">
-            <h2>Our Programs</h2>
-            <ul>
-                <li>Automotive Technology</li>
-                <li>Building Trades</li>
-                <li>Cosmetology</li>
-                <li>Culinary Arts</li>
-                <li>Computer Science</li>
-                <li>Health Sciences</li>
-                <li>Graphic Design</li>
-            </ul>
-        </section>
-
-        <section id="contact" class="section">
-            <h2>Contact Us</h2>
-            <form class="contact-form" action="mailto:info@scvths.org" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
     </div>
 
     <footer>
-        <p>&copy; 2024 Somerset County Vocational and Technical High School. All rights reserved.</p>
+        <p>&copy; 2024 Somerset County Vocational and Technical High School</p>
     </footer>
 </body>
 </html>
