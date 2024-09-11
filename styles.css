@@ -36,4 +36,11 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-.hero
+.title {
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    font-weight: 500;
+    font-family: var(--accent-font, "Zilla Slab");
+    width: 100%;
+}
