@@ -41,6 +41,6 @@ footer {
     font-size: 1.25rem;
     line-height: 1.5625rem;
     font-weight: 500;
-    font-family: var(--accent-font, "Zilla Slab");
+    font-family: 'Zilla Slab', serif;
     width: 100%;
 }
