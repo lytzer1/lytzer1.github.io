@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 header {
     background: #003c71;
@@ -36,11 +36,67 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+.footer-words {
+    margin: 25px 0;
+
+}
 .title {
     color: #fff;
-    font-size: 2.75rem;
+    font-size: 3rem;
     line-height: 1.5625rem;
-    font-weight: 500;
-    font-family: 'Zilla Slab', serif;
+    font-weight: 550;
+    font-family: 'Zilla', serif;
     width: 100%;
+}
+
+
+ul {
+    list-style:none;
+}
+
+.contactlist{
+    display: inline;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: 'Zilla';
+    src: url(https://codehs.com/uploads/012aaf099deb4e2aecd0dcf5b960ca20);
+}
+
+@font-face {
+    font-family: 'Zilla-Bold';
+    src: url(https://codehs.com/uploads/d574a8bea3bc0ea6c4e2a2f2bc1ba80c);
+}
+
+.welcome {
+    font-family: 'Zilla-Bold';
+    font-size: 3rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: #113e6c;
+    position: relative;
+    left: -55px;
+}
+.welcome-text {
+    position: relative;
+    left: -50px;
+    padding: -5px;
+    font-family: 'Zilla';
+    font-size: 19px;
+}
+
+.welcome-img {
+    width: 500px;
+    length: 1000px;
+    position: absolute;
+    right: 125px;
+    top: 260px;
+}
+
+.topleft {
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  font-size: 18px;
 }
