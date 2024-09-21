@@ -1,6 +1,6 @@
 // Array of image filenames
 const images = [
-    'https://codehs.com/uploads/92cbae805e543caf8930cc6db49d1aac',
+    '1200px-Burj_Khalifa.jpg',
     'https://codehs.com/uploads/c10ebd0d8b6ce7b605a0a4aac8daf389',
 ];
 
