@@ -46,7 +46,16 @@ footer {
     line-height: 1.5625rem;
     font-weight: 550;
     font-family: 'Zilla', serif;
-    width: 100%;
+
+}
+
+.team{
+    font-family: 'Zilla-Bold';
+    font-size: 3rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: #113e6c;
+    text-align: center;
 }
 
 
@@ -61,12 +70,12 @@ ul {
 
 @font-face {
     font-family: 'Zilla';
-    src: url('ZillaSlab-Regular.woff2');
+    src: url(https://codehs.com/uploads/012aaf099deb4e2aecd0dcf5b960ca20);
 }
 
 @font-face {
     font-family: 'Zilla-Bold';
-    src: url('ZillaSlab-Bold.woff');
+    src: url(https://codehs.com/uploads/d574a8bea3bc0ea6c4e2a2f2bc1ba80c);
 }
 
 .welcome {
@@ -94,9 +103,67 @@ ul {
     top: 260px;
 }
 
+
+
+.cstitle {
+    font-size: 35px;
+}
+
+.cstitle2 {
+    font-size: 20px;
+}
+
+
+
 .topleft {
   position: absolute;
   top: 25px;
   left: 80px;
   font-size: 18px;
 }
+
+
+.meet-the-team {
+    text-align: center;
+    padding: 20px;
+}
+.team-container {
+    display: flex;
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Space between team members */
+}
+
+.team-member {
+    text-align: center; /* Center text under images */
+}
+
+.team-member img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px; /* Optional for rounded corners */
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
