@@ -66,16 +66,17 @@ ul {
 .contactlist{
     display: inline;
     margin-right: 10px;
+    font-size: 20px;
 }
 
 @font-face {
     font-family: 'Zilla';
-    src: url(ZillaSlab-Regular.woff2);
+    src: url(https://codehs.com/uploads/012aaf099deb4e2aecd0dcf5b960ca20);
 }
 
 @font-face {
     font-family: 'Zilla-Bold';
-    src: url(ZillaSlab-Bold.woff);
+    src: url(https://codehs.com/uploads/d574a8bea3bc0ea6c4e2a2f2bc1ba80c);
 }
 
 .welcome {
@@ -106,13 +107,19 @@ ul {
 
 
 .cstitle {
-    font-size: 35px;
+    font-size: 3rem;
+    font-family: 'Zilla-Bold';
+    line-height: 1rem;
+    font-weight: 700;
+    color: #113e6c;
 }
 
-.cstitle2 {
+.cs-cirriculum {
+    font-size: 30px;
+}
+.cs-year {
     font-size: 20px;
 }
-
 
 
 .topleft {
@@ -122,12 +129,6 @@ ul {
   font-size: 18px;
 }
 
-
-.meet-the-team {
-    text-align: center;
-    padding: 20px;
-}
-
 .meet-the-team-title {
     font-family: 'Zilla-Bold';
     font-size: 3rem;
@@ -135,6 +136,10 @@ ul {
     font-weight: 700;
     color: #113e6c;
     text-align:center;
+}
+.meet-the-team {
+    text-align: center;
+    padding: 20px;
 }
 .team-container {
     display: flex;
@@ -160,13 +165,37 @@ ul {
 }
 
 
+.pltw-img {
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    right: 200px;
+    top: 305px;
+}
 
+.python-img {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    right: 490px;
+    top: 525px;
+}
 
+.js-img{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    right: 250px;
+    top: 525px;
+}
 
-
-
-
-
+.codehs-img {
+    width: 690px;
+    height: 240px;
+    position: absolute;
+    right: 195px;
+    top: 723px;
+}
 
 
 
