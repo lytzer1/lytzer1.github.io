@@ -1,7 +1,7 @@
 // Array of image filenames
 const images = [
     '1200px-Burj_Khalifa.jpg',
-    'https://codehs.com/uploads/c10ebd0d8b6ce7b605a0a4aac8daf389',
+    '3f3079492b118ac8008e245d01421e7b.png',
 ];
 
 // Function to set a random image
