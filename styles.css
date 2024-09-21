@@ -71,12 +71,12 @@ ul {
 
 @font-face {
     font-family: 'Zilla';
-    src: url(ZillaSlab-Regular.woff2);
+    src: url(https://codehs.com/uploads/012aaf099deb4e2aecd0dcf5b960ca20);
 }
 
 @font-face {
     font-family: 'Zilla-Bold';
-    src: url(ZillaSlab-Bold.woff);
+    src: url(https://codehs.com/uploads/d574a8bea3bc0ea6c4e2a2f2bc1ba80c);
 }
 
 .welcome {
@@ -197,7 +197,12 @@ ul {
     top: 723px;
 }
 
-
+.contact-img {
+    width: 500px;
+    position: absolute;
+    right: 125px;
+    top: 260px;
+}
 
 
 
