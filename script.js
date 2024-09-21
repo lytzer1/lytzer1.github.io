@@ -7,7 +7,7 @@ const images = [
 // Function to set a random image
 function setRandomImage(elementId) {
     const randomIndex = Math.floor(Math.random() * images.length);
-    const imagePath = `/pictures${images[randomIndex]}`; // Update this path
+    const imagePath = images[randomIndex]; // Use the URL directly
     document.getElementById(elementId).src = imagePath;
 }
 
