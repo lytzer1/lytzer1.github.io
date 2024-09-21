@@ -2,11 +2,11 @@
 // Array of image URLs and their corresponding captions
 const images = [
     {
-        url: '1200px-Burj_Khalifa.jpg',
+        url: 'temp-img1.jpg',
         caption: 'Caption for Image 1'
     },
     {
-        url: '3f3079492b118ac8008e245d01421e7b.png',
+        url: 'temp-img2.png',
         caption: 'Caption for Image 2'
     },
 ];
