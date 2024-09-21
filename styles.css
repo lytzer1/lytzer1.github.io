@@ -127,6 +127,15 @@ ul {
     text-align: center;
     padding: 20px;
 }
+
+.meet-the-team-title {
+    font-family: 'Zilla-Bold';
+    font-size: 3rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: #113e6c;
+    text-align:center;
+}
 .team-container {
     display: flex;
     justify-content: center; /* Center the items */
